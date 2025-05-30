@@ -361,7 +361,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   },
 ];
 
-export const HERO_VIDEO_URL = "/assets/backgroundvid.mp4";
+export const HERO_VIDEO_URL = "/backgroundvid.mp4";
 
 export interface AboutUsTeamMember {
   name: string;

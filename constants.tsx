@@ -305,7 +305,7 @@ export const PORTFOLIO_PROJECTS_DATA: PortfolioProject[] = [
     id: 'p4',
     title: { en: 'Interactive Data Visualization', id: 'Visualisasi Data Interaktif' },
     category: { en: 'Web Design', id: 'Desain Web' },
-    videoUrl: 'assets/backgroundvid.mp4', 
+    videoUrl: 'src/assets/video/backgroundvid.mp4', 
     description: { 
       en: 'Web-based tool for visualizing complex datasets with D3.js.',
       id: 'Alat berbasis web untuk memvisualisasikan kumpulan data kompleks dengan D3.js.'
@@ -361,7 +361,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   },
 ];
 
-export const HERO_VIDEO_URL = "assets/backgroundvid.mp4";
+export const HERO_VIDEO_URL = "./src/assets/video/backgroundvid.mp4";
 
 export interface AboutUsTeamMember {
   name: string;
